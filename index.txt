@@ -1,0 +1,85 @@
+ESC=cierraVentana.ahk
+	 ESC cierra la ventana actual
+
+JoystickMouse.ahk
+	 Using a Joystick as a Mouse
+
+MediaPlayer10s.ahk
+	 Clic izquierdo arranca media player, espera 10s y lo para
+
+MediaPlayer20s.ahk
+	 Clic izquierdo arranca media player, espera 10s y lo para
+
+MediaPlayer30s.ahk
+	 Clic izquierdo arranca media player, espera 30s y lo para
+
+MediaPlayer60s.ahk
+	 Clic izquierdo arranca media player, espera 60s y lo para
+
+joyCursor=Return-joyButtons=Space.ahk
+	 Pad joystick -> Return - Botones joystick -> Space
+
+joyCursor=Spacer-joyButtons=Return.ahk
+	 Pad joystick -> Space - Botones joystick -> Return
+
+ratonArrastreAnulado.ahk
+	 Desactiva la función de arrastre del ratón
+
+ratonBotones=Click.ahk
+	 Todos los botones del ratón hacen clic izquierdo
+
+ratonBotonesAnulados.ahk
+	 Desactivar todos los clics.
+
+ratonBotonesAnulados_conAviso.ahk
+	 Desactivar todos los clics. Muestra un aviso.
+
+ratonDer=Click.ahk
+	 Hace que los dos botones del ratón hagan clic izquierdo
+
+ratonDer=DblClick.ahk
+	 Botón derecho ratón hace doble clic
+
+ratonDer=DblClick_conAviso.ahk
+	 Botón derecho ratón hace doble clic. Muestra un aviso.
+
+ratonDer=DragDrop.ahk
+	 Botón derecho ratón hace hace función arrastrar y soltar (drag&drop)
+
+ratonDerAnulado.ahk
+	 Anula botón derecho del ratón
+
+ratonDerAnulado_conAviso.ahk
+	 Anula botón derecho del ratón. Muestra un aviso.
+
+ratonIzq=1-ratonDer=2.ahk
+	 Raton izquierdo -> 1 - Ratón derecho -> 2
+
+ratonIzq=Space-ratonDer=Return.ahk
+	 Ratón izquierdo -> Space - Ratón derecho -> Return
+
+ratonIzq=clic+espera_10s+clic.ahk
+	 Al recibir clic izquierdo hace clic, espera 10s y hace otro clic.
+	 Útil para parar automáticamente reproductor.
+
+ratonIzq=clic+espera_2,5s.ahk
+	 Después clic izquierdo espera 2,5 segundos
+
+ratonIzq=clic+espera_30s+clic.ahk
+	 Al recibir clic izquierdo hace clic, espera 30s y hace otro clic.
+	 Útil para parar automáticamente reproductor.
+
+ratonIzq=clic+espera_5s+clic.ahk
+	 Al recibir clic izquierdo hace clic, espera 5s y hace otro clic.
+	 Útil para parar automáticamente reproductor.
+
+ratonIzq=clic+espera_5s.ahk
+	 Después clic izquierdo espera 5 segundos
+
+ratonRuedaAnulado.ahk
+	 Anula la rueda del ratón
+
+ratonSoloBotonIzq.ahk
+	 Anula todos los botones del ratón excepto clic izquierdo
+
+Generado en: 2013-03-18_20:12
