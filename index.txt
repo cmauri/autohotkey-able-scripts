@@ -16,11 +16,16 @@ MediaPlayer30s.ahk
 MediaPlayer60s.ahk
 	 Clic izquierdo arranca media player, espera 60s y lo para
 
+closeAhk.ahk
+	 Closes all AutoHotKey instances
+
 joyCursor=Return-joyButtons=Space.ahk
 	 Pad joystick -> Return - Botones joystick -> Space
 
 joyCursor=Spacer-joyButtons=Return.ahk
 	 Pad joystick -> Space - Botones joystick -> Return
+
+mouseDelay.ahk
 
 ratonArrastreAnulado.ahk
 	 Desactiva la función de arrastre del ratón
@@ -76,10 +81,15 @@ ratonIzq=clic+espera_5s+clic.ahk
 ratonIzq=clic+espera_5s.ahk
 	 Después clic izquierdo espera 5 segundos
 
+ratonIzqEspera.ahk
+	 Introduce un pequeña espera entre que se pulsa el botón izquierdo
+	 del ratón y se suelta. Útil para aplicaciones que necesiten esta 
+	 espera entre ambos eventos cuando se emula el clic (ej. eviacam)
+
 ratonRuedaAnulado.ahk
 	 Anula la rueda del ratón
 
 ratonSoloBotonIzq.ahk
 	 Anula todos los botones del ratón excepto clic izquierdo
 
-Generado en: 2013-03-18_20:12
+Generado en: 2013-04-19_16:42
